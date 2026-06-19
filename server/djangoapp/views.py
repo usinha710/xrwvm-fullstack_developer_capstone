@@ -1,4 +1,4 @@
-from django.shortcuts import render
+# from django.shortcuts import render
 from django.contrib.auth.models import User
 from django.contrib.auth import logout, login, authenticate
 from django.http import JsonResponse
@@ -180,3 +180,4 @@ def add_review(request):
         "status": 403,
         "message": "Unauthorized"
     })
+    
